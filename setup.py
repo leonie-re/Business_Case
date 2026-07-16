@@ -10,8 +10,8 @@ FOLDERS = [
     "data/_archive",   # Archivierte Daten
     "scripts",        # Jupyter Notebooks and other scripts
     "scripts/models",           # Abgespeicherte Modelle
-    "scripts/figures"             # Exportierte Grafiken und Visualisierungen
-    "scripts/_archive"          # Archivierte Notebooks
+    "scripts/figures",             # Exportierte Grafiken und Visualisierungen
+    "scripts/_archive"  ,        # Archivierte Notebooks
     "presentations"              # Wiederverwendbarer Python-Code (Skripte, Module)
 ]
 
