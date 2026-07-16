@@ -38,7 +38,7 @@ seaborn
 scikit-learn
 jupyterlab
 ipykernel
-kagglehub
+kagglehub[pandas-datasets] 
 """
     with open("requirements.txt", "w", encoding="utf-8") as f:
         f.write(requirements_content)

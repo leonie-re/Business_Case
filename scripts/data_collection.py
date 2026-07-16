@@ -1,15 +1,11 @@
-# Install dependencies as needed
-import numpy as np
-
-#pip install kagglehub[pandas-datasets] #installed via R when initiating project
+# Install dependencies as needed:
+#pip install kagglehub[pandas-datasets]
 import kagglehub
-#from kagglehub import KaggleDatasetAdapter
-
-kagglehub.login()
-# API KEY: KGAT_0278333821e05ced51079eaea3da2388
+from kagglehub import KaggleDatasetAdapter
 
 # Set the path to the file you'd like to load
 file_path = "data/raw.nosync/retail_data.csv"
+
 
 # Load the latest version
 df = kagglehub.load_dataset(
