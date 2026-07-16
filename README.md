@@ -25,4 +25,4 @@ Daten zu Verkauf und Preisen von Produkten extrahiere ich via API von kaggle.com
 - `presentation`
 
 ## Setup 
-
+Jupyter Notebooks werden in VS Code Environment generiert. 
