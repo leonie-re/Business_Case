@@ -12,7 +12,7 @@ FOLDERS = [
     "scripts/models",           # Abgespeicherte Modelle
     "scripts/figures",             # Exportierte Grafiken und Visualisierungen
     "scripts/_archive"  ,        # Archivierte Notebooks
-    "presentations"              # Wiederverwendbarer Python-Code (Skripte, Module)
+    "presentations"            # Wiederverwendbarer Python-Code (Skripte, Module)
 ]
 
 def create_folders():
@@ -39,6 +39,7 @@ scikit-learn
 jupyterlab
 ipykernel
 kagglehub[pandas-datasets] 
+google-cloud-bigquery[pandas]
 """
     with open("requirements.txt", "w", encoding="utf-8") as f:
         f.write(requirements_content)
@@ -92,3 +93,5 @@ if __name__ == "__main__":
         print("👉 Starte JupyterLab mit: venv\\Scripts\\jupyter-lab")
     else:  # macOS / Linux
         print("👉 Starte JupyterLab mit: ./venv/bin/jupyter-lab")
+
+
